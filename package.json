@@ -1,0 +1,30 @@
+{
+  "name": "blueprint-table-v1",
+  "version": "1.31.3",
+  "description": "Exports the latest 1.x version of https://github.com/palantir/blueprint/tree/develop/packages/table. This is useful if you need to simultaneously depend on Blueprint 1.x and 3.x for back-compat reasons.",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "sideEffects": false,
+  "author": "que3217",
+  "license": "ISC",
+  "dependencies": {
+    "@blueprintjs/table": "1.31.3"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0 || ^15.0.1 || ^0.14",
+    "react-addons-css-transition-group": "^15.0.1 || ^0.14",
+    "react-dom": "^16.0.0 || ^15.0.1 || ^0.14"
+  },
+  "devDependencies": {
+    "react": "^15.6.1",
+    "react-addons-css-transition-group": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Que3216/blueprint-table-v1.git"
+  }
+}
